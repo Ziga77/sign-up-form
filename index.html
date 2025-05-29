@@ -11,11 +11,15 @@
 <div class="container">
   <div class="img-container">
     <img src="japan-background-digital-art.jpg" alt="Japan background digital art">
+    <div class="odin-container">
+      <img class="odin-logo" src="odin-lined.png" alt="">
+      <p>ODIN</p>
+    </div>
   </div>
   
   <div class="right-container">
     <div class="form-container">
-      <div>
+      <div class="header-text">
         <p>
           This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up <em>now</em> to get started.
         </p>
@@ -26,32 +30,45 @@
       </div>
 
       <div class="form-data">
-        <form action="">
-          <legend>Lets do this!</legend>
+        <p>Let's do this!</p>
 
-          <label for="">FIRST NAME</label>
-          <input type="text">
+        <form id="myForm" action="">
 
-          <label for="">LAST NAME</label>
-          <input type="text">
+          <div>
+            <label for="">FIRST NAME</label>
+            <input type="text">
+          </div>
 
-          <label for="">EMAIL</label>
-          <input type="text">
+          <div>
+            <label for="">LAST NAME</label>
+            <input type="text">
+          </div>
 
-          <label for="">PHONE NUMBER</label>
-          <input type="text">
+          <div>
+            <label for="">EMAIL</label>
+            <input type="email">
+          </div>
 
-          <label for="">PASSWORD</label>
-          <input type="text">
+          <div>
+            <label for="">PHONE NUMBER</label>
+            <input type="number">
+          </div>
 
-          <label for="">CONFIRM PASSWORD</label>
-          <input type="text">
+          <div>
+            <label for="">PASSWORD</label>
+            <input type="password">
+          </div>
+
+          <div>
+            <label for="">CONFIRM PASSWORD</label>
+            <input type="password">
+          </div>
         </form>
       </div>
 
-      <div>
-        <button>Create account</button>
-        <p>Already have an account? Log in</p>
+      <div class="button-container">
+        <button form="myForm" type="submit">Create account</button>
+        <p>Already have an account? <span class="login">Log in</span></p>
       </div>
     </div>    
   </div>
